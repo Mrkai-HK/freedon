@@ -56,20 +56,6 @@ proxies:
   cipher: aes-128-gcm
   password: f9300a9bf39ae0347c3a3bfbc4dd7754
   udp: true
-- name: 🇫🇮 FI 06 - xiaohe
-  type: ss
-  server: 185.103.110.66
-  port: 18280
-  cipher: aes-128-gcm
-  password: f9300a9bf39ae0347c3a3bfbc4dd7754
-  udp: true
-- name: 🇫🇮 FI 07 - xiaohe
-  type: ss
-  server: 185.103.110.68
-  port: 18283
-  cipher: aes-128-gcm
-  password: f9300a9bf39ae0347c3a3bfbc4dd7754
-  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -80,8 +66,6 @@ proxy-groups:
   - 🇫🇮 FI 03 - xiaohe
   - 🇫🇮 FI 04 - xiaohe
   - 🇫🇮 FI 05 - xiaohe
-  - 🇫🇮 FI 06 - xiaohe
-  - 🇫🇮 FI 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -92,7 +76,5 @@ proxy-groups:
   - 🇫🇮 FI 03 - xiaohe
   - 🇫🇮 FI 04 - xiaohe
   - 🇫🇮 FI 05 - xiaohe
-  - 🇫🇮 FI 06 - xiaohe
-  - 🇫🇮 FI 07 - xiaohe
 rules:
 - MATCH,PROXIES

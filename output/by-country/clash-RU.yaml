@@ -20,18 +20,18 @@ proxies:
   udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   type: vless
-  server: 172.66.44.124
-  port: 8443
-  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
+  server: 185.178.208.167
+  port: 443
+  uuid: 4662bf2b-af58-0001-ae5f-ef3d7d3a624f
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+  servername: mbr.rkn-pediki.site
   network: ws
   ws-opts:
-    path: /
+    path: /session
     headers:
-      Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+      Host: mbr.rkn-pediki.site
 - name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
   type: ss
   server: 46.17.47.58
